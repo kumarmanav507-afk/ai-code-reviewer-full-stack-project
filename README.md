@@ -1,23 +1,26 @@
-# AI Code Reviewer 🤖
+# AI Code Reviewer
 
-A full-stack web application that reviews code using AI.
+A full-stack web application that reviews code 
+and gives suggestions to improve code quality.
 
 ## Tech Stack
 - Frontend: React.js
-- Backend: Node.js & Express
+- Backend: Node.js, Express.js
+- Database: MongoDB
+
+## Features
+- Paste your code and get instant review
+- Suggests improvements and best practices
+- Supports multiple programming languages
 
 ## How to Run
 
 ### Backend
-```bash
 cd backend
 npm install
-node server.js
-Frontend
+npm start
+
+### Frontend
 cd frontend
 npm install
 npm start
-Features
-Submit code for AI review
-Get instant feedback
-Support for multiple programming languages
